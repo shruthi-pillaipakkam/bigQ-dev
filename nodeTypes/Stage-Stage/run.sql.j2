@@ -1,0 +1,38 @@
+
+{% if config.preSQL %}
+  {{ stage('Run Pre-SQL') }}
+  {{ config.preSQL }}
+{% endif %}
+
+{% if node.materializationType == 'table' %}
+  {% if config.truncateBefore %}
+    {{ stage('Truncate Before') }}
+    TRUNCATE TABLE {{ ref_no_link(node.location.name, node.name) }};
+  {% endif %}
+  {{ stage('Insert Stage Data') }}
+  INSERT INTO {{ ref_no_link(node.location.name, node.name) }}
+  SELECT * FROM (
+    {% for source in sources %}
+      SELECT
+      {% for col in source.columns %}
+        {{ get_source_transform(col) }} AS `{{ col.name }}`
+        {%- if not loop.last -%}, {% endif %}
+      {% endfor %}
+      {{ source.join }}
+      {% if not loop.last %}
+        {% if config.insertStrategy in ['UNION', 'UNION ALL'] %}
+          {{ config.insertStrategy }}
+        {% else %}
+          UNION
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  )
+{% else %}
+  -- view has no run step
+{% endif %}
+
+{% if config.postSQL %}
+  {{ stage('Run Post-SQL') }}
+  {{ config.postSQL }}
+{% endif %}
