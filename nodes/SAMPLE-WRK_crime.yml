@@ -1,0 +1,339 @@
+fileVersion: 1
+id: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+name: WRK_crime
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d049f3c4-a564-492f-9bce-64a84350b36d
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: INT64
+        defaultValue: "NULL"
+        description: ""
+        name: unique_key
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e32152fb-1ba7-40eb-9495-b6141d2c159f
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: address
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c50f128c-b122-4204-adca-77a85c77a78e
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: FLOAT64
+        defaultValue: "NULL"
+        description: ""
+        name: census_tract
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e3776f93-de76-4c34-95a0-4caed8b0f586
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: "NULL"
+        description: ""
+        name: clearance_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5087ecf5-f70d-4a3a-b547-b68921196ae4
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: clearance_status
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8c941c28-d8f1-4b43-93a9-09c39ada646b
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: INT64
+        defaultValue: "NULL"
+        description: ""
+        name: council_district_code
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ca543674-b3ca-4aed-a1c8-8714bd1eeff8
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: description
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 140f08bb-d144-48ed-8753-872b1d56205c
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: district
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d8137571-d1fb-4b58-a886-fe5c911cf424
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: FLOAT64
+        defaultValue: "NULL"
+        description: ""
+        name: latitude
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 82bd90fd-5a21-4cf7-9570-526e7d0569b4
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: FLOAT64
+        defaultValue: "NULL"
+        description: ""
+        name: longitude
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c3fe7e74-9e43-4e1c-9ee9-36a4870693c3
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: location
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 699fe158-734e-4bfc-a430-d9e691ee0962
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: location_description
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ddd173c7-aa70-47f0-8e0b-97b3aba83805
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: primary_type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 131e6a54-a1f5-4b77-b247-bc11a6cc3485
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: "NULL"
+        description: ""
+        name: timestamp
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: be84696b-4031-4b13-92aa-6fdfb1c9c4ad
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: INT64
+        defaultValue: "NULL"
+        description: ""
+        name: x_coordinate
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ee799607-3648-48ce-a0ab-085259e4d120
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: INT64
+        defaultValue: "NULL"
+        description: ""
+        name: y_coordinate
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 55101fd4-c521-428d-9ca8-231516ed6182
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: INT64
+        defaultValue: "NULL"
+        description: ""
+        name: year
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 74199b88-da24-451b-b77f-1675c26c0d1f
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: zipcode
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0e2811b7-3d62-4d19-a410-a805c2049e0e
+          stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: GH
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: WRK_crime
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

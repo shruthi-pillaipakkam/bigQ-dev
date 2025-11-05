@@ -1,0 +1,254 @@
+fileVersion: 1
+id: 9e54d33f-2629-41b5-b931-88e6e37defb1
+name: jira_export
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d27f222c-9e1f-4971-a6df-b991a7174b02
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5fdb6cb2-45a2-483b-ba01-c2948244768a
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: Parent
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6e7265fb-d1b1-4cb7-acc7-9627dc4b1f6e
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: Type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 71793b66-c3b0-4f4d-8134-fdd3ad54fe1b
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: Team
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f6dd4940-1e7e-4bff-9d28-ab9c60c3e26c
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: Summary
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 674ad1ca-c446-4ef7-a5e4-6632ea75860f
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: Status
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b6388852-9f6a-4418-ae2c-e95384016a14
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: StatusCategory
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 104e1fe7-b442-411d-af63-f6fe4de5b966
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: Priority
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 39d28981-ab31-4edd-98f6-e2e20e79ab69
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: Assignee
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 411f039a-7a14-4419-bb96-7ceabb88e9c5
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: Reporter
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 845ce626-1b32-4996-a1b6-64ac7eced50c
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: "NULL"
+        description: ""
+        name: Created
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2a402c2f-6344-4fa8-b0b6-7a3c3eeb36a2
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: "NULL"
+        description: ""
+        name: Updated
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: aa49f2bb-2f31-4c9a-878a-b677a2d9bde7
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: string_field_12
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4d310f35-1827-4f6e-9ff4-21dbe0ee9662
+          stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: ResolutionDate
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: jira_export
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
