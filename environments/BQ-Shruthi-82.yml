@@ -6,6 +6,6 @@ mappingDefinitions:
     schema: coalesce_dev
   WORK:
     database: coalesce-a6346
-    schema: Shu_archive
+    schema: shruthi_dev_DB
 name: BQ- Shruthi
 type: Environment
