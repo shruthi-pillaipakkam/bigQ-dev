@@ -14,7 +14,7 @@ operation:
     selectDistinct: false
     testsEnabled: false
     truncateBefore: true
-  database: ""
+  database: coalesce-a6346
   deployEnabled: true
   description: ""
   isMultisource: false
@@ -190,7 +190,7 @@ operation:
           - columnReferences:
               - columnCounter: 699fe158-734e-4bfc-a430-d9e691ee0962
                 stepCounter: 82b57bb0-014d-4a15-98bd-79e24a7afe88
-            transform: ""
+            transform: UPPER(WRK_crime.location_description)
       - appliedColumnTests: {}
         columnReference:
           columnCounter: c54c04c5-c410-48b7-94c4-9e9461c9f034
@@ -305,7 +305,7 @@ operation:
         noLinkRefs: []
   name: WRK_WRK_crime
   overrideSQL: false
-  schema: ""
+  schema: shruthi_DB
   sqlType: Stage
   type: sql
   version: 1
