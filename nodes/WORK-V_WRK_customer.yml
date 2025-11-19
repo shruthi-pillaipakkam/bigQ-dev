@@ -129,6 +129,31 @@ operation:
               - columnCounter: c5d80b4f-8b0b-45b6-b1f3-97b5948aec89
                 stepCounter: 2d76e486-94e6-429f-9f43-a0db0993423f
             transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 58b52ca3-73cf-4fd4-a5ac-e278bd0352b1
+          stepCounter: 99f3b034-eed6-47d3-960d-c658360ab5cf
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: C_ACCTSTATUS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: |-
+              CASE 
+                  WHEN WRK_customer.C_ACCTBAL > 5000 THEN 'GOLD'
+                  WHEN WRK_customer.C_ACCTBAL > 1000 THEN 'SILVER'
+                  ELSE 'BRONZE'
+              END
+        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
