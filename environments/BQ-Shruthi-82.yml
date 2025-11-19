@@ -4,11 +4,8 @@ mappingDefinitions:
   SAMPLE:
     database: coalesce-a6346
     schema: coalesce_dev
-  TEST:
-    database: coalesce-a6346
-    schema: TestBryanDeploy
   WORK:
     database: coalesce-a6346
-    schema: shruthi_dev_DB
+    schema: TestBryanDeploy
 name: BQ- Shruthi
 type: Environment

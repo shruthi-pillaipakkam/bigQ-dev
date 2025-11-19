@@ -4,9 +4,6 @@ mappingDefinitions:
   SAMPLE:
     database: ""
     schema: ""
-  TEST:
-    database: ""
-    schema: ""
   WORK:
     database: test
     schema: ""
