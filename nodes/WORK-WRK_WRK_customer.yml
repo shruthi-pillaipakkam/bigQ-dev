@@ -42,7 +42,7 @@ operation:
           columnCounter: 2d0cc75c-41d9-42b9-8998-6f0404f63b36
           stepCounter: 9b35e88d-9b51-48bc-bc4b-d675d9046966
         config: {}
-        dataType: STRING10
+        dataType: STRING
         description: ""
         name: C_NAME
         nullable: true
@@ -70,7 +70,7 @@ operation:
           columnCounter: f97b3628-9f55-4a1e-a0b2-aa2de051100c
           stepCounter: 9b35e88d-9b51-48bc-bc4b-d675d9046966
         config: {}
-        dataType: INT64
+        dataType: FLOAT64
         description: ""
         name: C_NATIONKEY
         nullable: true
