@@ -1,6 +1,9 @@
 fileVersion: 1
 id: "82"
 mappingDefinitions:
+  MIGRATION_TARGET:
+    database: coalesce-a6346
+    schema: Shu_archive
   SAMPLE:
     database: coalesce-a6346
     schema: coalesce_dev

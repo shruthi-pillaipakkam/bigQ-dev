@@ -1,6 +1,9 @@
 fileVersion: 1
 id: "85"
 mappingDefinitions:
+  MIGRATION_TARGET:
+    database: ""
+    schema: ""
   SAMPLE:
     database: ""
     schema: ""
