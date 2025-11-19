@@ -71,7 +71,7 @@ operation:
           stepCounter: 1c389b7e-e4fe-4ccd-b246-fda44b5d0a8a
         config: {}
         dataType: TIMESTAMP
-        description: ""
+        description: Timestamp indicating when the police investigation was officially closed
         name: clearance_date
         nullable: true
         sourceColumnReferences:
