@@ -1,5 +1,5 @@
 fileVersion: 1
-id: 4468c47c-6e6e-48c0-a9ac-af577d6ba96b
+id: 2d76e486-94e6-429f-9f43-a0db0993423f
 name: WRK_customer
 operation:
   database: ""
@@ -13,8 +13,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: a61a3cc8-89bd-4a38-869a-c9896af7e2fd
-          stepCounter: 4468c47c-6e6e-48c0-a9ac-af577d6ba96b
+          columnCounter: 84c1011d-3ef3-4f02-96bc-a867e9e990de
+          stepCounter: 2d76e486-94e6-429f-9f43-a0db0993423f
         config: {}
         dataType: INT64
         defaultValue: "NULL"
@@ -30,8 +30,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 6ac3686b-14cc-47c7-b48b-270393c747b0
-          stepCounter: 4468c47c-6e6e-48c0-a9ac-af577d6ba96b
+          columnCounter: 9cab5460-143d-4491-9a62-7ca503a0a3b3
+          stepCounter: 2d76e486-94e6-429f-9f43-a0db0993423f
         config: {}
         dataType: STRING
         defaultValue: "NULL"
@@ -47,8 +47,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 740e1aad-3226-41b9-8a7a-8d915859c321
-          stepCounter: 4468c47c-6e6e-48c0-a9ac-af577d6ba96b
+          columnCounter: 9c36e15e-18c8-4cdd-bbac-8a25e8f0449b
+          stepCounter: 2d76e486-94e6-429f-9f43-a0db0993423f
         config: {}
         dataType: STRING
         defaultValue: "NULL"
@@ -64,8 +64,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: b70918c7-bd3f-4688-8ca6-dda2bda9622e
-          stepCounter: 4468c47c-6e6e-48c0-a9ac-af577d6ba96b
+          columnCounter: c52d1f50-5f75-4a47-92dd-e32891a1a62a
+          stepCounter: 2d76e486-94e6-429f-9f43-a0db0993423f
         config: {}
         dataType: INT64
         defaultValue: "NULL"
@@ -81,8 +81,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: ae5fe270-39ed-418e-beee-8de90c234ca4
-          stepCounter: 4468c47c-6e6e-48c0-a9ac-af577d6ba96b
+          columnCounter: 8864a91e-4c5c-4b59-963c-a2db5ffee609
+          stepCounter: 2d76e486-94e6-429f-9f43-a0db0993423f
         config: {}
         dataType: STRING
         defaultValue: "NULL"
@@ -98,8 +98,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: bb37a034-3102-480a-b20f-80d07a3fdb61
-          stepCounter: 4468c47c-6e6e-48c0-a9ac-af577d6ba96b
+          columnCounter: 30c89f4c-f637-45c3-8c44-06bab78b0dfb
+          stepCounter: 2d76e486-94e6-429f-9f43-a0db0993423f
         config: {}
         dataType: FLOAT64
         defaultValue: "NULL"
@@ -115,8 +115,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 41d79fc3-49be-45da-b07b-c90bc2770028
-          stepCounter: 4468c47c-6e6e-48c0-a9ac-af577d6ba96b
+          columnCounter: ec5eb5c3-fe6c-42e5-b8bf-e7b2869c8df1
+          stepCounter: 2d76e486-94e6-429f-9f43-a0db0993423f
         config: {}
         dataType: STRING
         defaultValue: "NULL"
@@ -132,8 +132,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: f38ae53f-9e1b-4a54-b8d2-a2b3d01ed0d4
-          stepCounter: 4468c47c-6e6e-48c0-a9ac-af577d6ba96b
+          columnCounter: c5d80b4f-8b0b-45b6-b1f3-97b5948aec89
+          stepCounter: 2d76e486-94e6-429f-9f43-a0db0993423f
         config: {}
         dataType: STRING
         defaultValue: "NULL"

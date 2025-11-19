@@ -1,0 +1,242 @@
+fileVersion: 1
+id: 4977c8c6-fbd6-4249-880c-49e89d20232a
+name: WRK_jira_export
+operation:
+  config:
+    groupByAll: false
+    insertStrategy: INSERT
+    orderby: false
+    orderbycolumn:
+      items:
+        - {}
+    postSQL: ""
+    preSQL: ""
+    selectDistinct: false
+    testsEnabled: false
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c6d5e7e9-7142-4616-ba1f-dc12a4e56d96
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: STRING
+        description: ""
+        name: ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1b206902-5e59-454d-9902-23d86ac4bff9
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 89ae07f6-3646-491d-8629-d46d5179685e
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Parent
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 42dde4d0-aa2a-4a3d-b5b3-6b28882aa1ac
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f7033566-89ad-4a6a-b992-8518c0ee6f55
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 18414c1d-42f7-4a84-bb91-a55036e78df5
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9959a176-8f4c-4d53-91bd-ad455604eb83
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Team
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d9d61ec3-cbbd-44d2-ba7b-24b5e657c7c7
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ce804b33-1737-4a46-88c5-2eca7848c44f
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Summary
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 17312091-0ef7-44a4-91d9-d6f3ec50c89b
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 143475d7-b813-4777-9d3a-da51d772e189
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Status
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0e7e0eaa-28e6-46d8-8a40-074a16931e72
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 98fe695e-7db0-4fad-ad5b-63408f1c66e9
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: STRING
+        description: ""
+        name: StatusCategory
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f0517d11-7120-4506-95da-67f6b05044e4
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7d1eb2c0-186e-4a5d-a503-769e3b73f6d6
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Priority
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 24f0e2a9-0f61-43cc-9417-ad672731eec6
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b957a76c-81ea-4c76-82e2-74509b2f4c76
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Assignee
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 09a807d8-3d0b-43b2-a0a9-09cdc7e5d8ee
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6ee2746e-2ee6-4ef9-a17e-1bdf67326be3
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Reporter
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2504522d-dac6-4c82-b785-6a3572bffab7
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 42ab0aac-e6bd-439c-98f5-60dadd82ea05
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: Created
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 40fc64cf-b761-47ae-bcce-eab2e9c1b95d
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b7e9a3a5-4d4b-4924-a18a-64f2c275212a
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: Updated
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6b6e5be5-814b-4071-b5b2-952e9a9ad5d5
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a29cc398-f1a8-4a24-8ede-4b3a3f6c9ef2
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: STRING
+        description: ""
+        name: string_field_12
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 79e7382b-8c9b-4959-ad57-163f7796b91f
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 18398ede-32f6-4cbe-81a4-1f821fb36b8b
+          stepCounter: 4977c8c6-fbd6-4249-880c-49e89d20232a
+        config: {}
+        dataType: STRING
+        description: ""
+        name: ResolutionDate
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1994ddc0-8959-45b8-8fd2-6225d589fe22
+                stepCounter: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          jira_export: ffc9eac6-6363-4c5b-ac27-cf62abff6958
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SAMPLE
+            nodeName: jira_export
+        join:
+          joinCondition: FROM {{ ref('SAMPLE', 'jira_export') }} `jira_export`
+        name: WRK_jira_export
+        noLinkRefs: []
+  name: WRK_jira_export
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node
