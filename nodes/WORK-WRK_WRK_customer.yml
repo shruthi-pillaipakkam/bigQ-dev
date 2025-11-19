@@ -42,7 +42,7 @@ operation:
           columnCounter: 2d0cc75c-41d9-42b9-8998-6f0404f63b36
           stepCounter: 9b35e88d-9b51-48bc-bc4b-d675d9046966
         config: {}
-        dataType: INT64
+        dataType: STRING10
         description: ""
         name: C_NAME
         nullable: true
@@ -115,7 +115,7 @@ operation:
           columnCounter: b9ea18be-82d3-4985-b483-8a3bfa7f5c32
           stepCounter: 9b35e88d-9b51-48bc-bc4b-d675d9046966
         config: {}
-        dataType: FLOAT
+        dataType: FLOAT64
         defaultValue: ""
         description: ""
         keyColumnType: None
