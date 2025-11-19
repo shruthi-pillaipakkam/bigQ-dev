@@ -1,32 +1,26 @@
 fileVersion: 1
-id: f81b579c-a5ff-4582-9db4-679acc3951f4
-name: WRK_WRK_customer
+id: 99f3b034-eed6-47d3-960d-c658360ab5cf
+name: V_WRK_customer
 operation:
   config:
+    OverrideSQLCreate: false
     groupByAll: false
-    insertStrategy: INSERT
-    orderby: false
-    orderbycolumn:
-      items:
-        - {}
-    postSQL: ""
-    preSQL: ""
+    insertStrategy: UNION ALL
+    secureoption: false
     selectDistinct: false
-    testsEnabled: false
-    truncateBefore: true
   database: coalesce-a6346
   deployEnabled: true
   description: ""
   isMultisource: false
   locationName: WORK
-  materializationType: table
+  materializationType: view
   metadata:
     appliedNodeTests: []
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: cbc21667-1f55-4e45-a79b-99c1ff306f50
-          stepCounter: f81b579c-a5ff-4582-9db4-679acc3951f4
+          columnCounter: e5ded4e1-eac3-4122-806a-4b77c44fca5a
+          stepCounter: 99f3b034-eed6-47d3-960d-c658360ab5cf
         config: {}
         dataType: INT64
         description: ""
@@ -39,8 +33,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 05d27432-8308-4564-a0f0-f69ff542abd0
-          stepCounter: f81b579c-a5ff-4582-9db4-679acc3951f4
+          columnCounter: 798778f7-9f09-4b67-b937-bd0eca847e85
+          stepCounter: 99f3b034-eed6-47d3-960d-c658360ab5cf
         config: {}
         dataType: STRING
         description: ""
@@ -53,8 +47,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 141933b3-8a3d-4745-8a49-6b6d0dce0bb3
-          stepCounter: f81b579c-a5ff-4582-9db4-679acc3951f4
+          columnCounter: bff263ce-ed71-407f-b8d9-baf470133ef3
+          stepCounter: 99f3b034-eed6-47d3-960d-c658360ab5cf
         config: {}
         dataType: STRING
         description: ""
@@ -67,8 +61,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 95312b18-1772-4b3c-b6e2-a3383c693a06
-          stepCounter: f81b579c-a5ff-4582-9db4-679acc3951f4
+          columnCounter: 81d70354-20f9-41e3-9792-33e732e15edd
+          stepCounter: 99f3b034-eed6-47d3-960d-c658360ab5cf
         config: {}
         dataType: INT64
         description: ""
@@ -81,8 +75,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: d283d379-b4b8-4adb-8fc2-44603645a453
-          stepCounter: f81b579c-a5ff-4582-9db4-679acc3951f4
+          columnCounter: b71a50db-e9b7-4c9b-990d-5995148cf8bf
+          stepCounter: 99f3b034-eed6-47d3-960d-c658360ab5cf
         config: {}
         dataType: STRING
         description: ""
@@ -95,8 +89,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: bbdd947c-cf86-4359-8de1-627b6f679832
-          stepCounter: f81b579c-a5ff-4582-9db4-679acc3951f4
+          columnCounter: 4e783a05-fb11-4e90-a662-914503de1950
+          stepCounter: 99f3b034-eed6-47d3-960d-c658360ab5cf
         config: {}
         dataType: FLOAT64
         description: ""
@@ -109,8 +103,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 39083ba7-b38d-4e31-bca7-0dc939a27676
-          stepCounter: f81b579c-a5ff-4582-9db4-679acc3951f4
+          columnCounter: f0cfd74d-06d3-48b8-8442-7dad3e383a3b
+          stepCounter: 99f3b034-eed6-47d3-960d-c658360ab5cf
         config: {}
         dataType: STRING
         description: ""
@@ -123,8 +117,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: c3118baa-94f6-45fd-b92f-e704ec6f0e32
-          stepCounter: f81b579c-a5ff-4582-9db4-679acc3951f4
+          columnCounter: b6b3a165-23f6-40f5-9414-2a06e1e886e7
+          stepCounter: 99f3b034-eed6-47d3-960d-c658360ab5cf
         config: {}
         dataType: STRING
         description: ""
@@ -147,12 +141,12 @@ operation:
             nodeName: WRK_customer
         join:
           joinCondition: FROM {{ ref('SAMPLE', 'WRK_customer') }} `WRK_customer`
-        name: WRK_WRK_customer
+        name: V_WRK_customer
         noLinkRefs: []
-  name: WRK_WRK_customer
+  name: V_WRK_customer
   overrideSQL: false
-  schema: TestBryanDeploy
-  sqlType: Stage
+  schema: shruthi_DB
+  sqlType: View
   type: sql
   version: 1
 type: Node
