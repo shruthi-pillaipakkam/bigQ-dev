@@ -129,6 +129,24 @@ operation:
               - columnCounter: c5d80b4f-8b0b-45b6-b1f3-97b5948aec89
                 stepCounter: 2d76e486-94e6-429f-9f43-a0db0993423f
             transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 43a556c8-1ee6-43d0-9cf6-86dbd7c4740f
+          stepCounter: caa6d71a-aabc-4b8a-afcf-d47c6ff1ee3a
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: full_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: CONCAT("first_name", ' ', "last_name")
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
