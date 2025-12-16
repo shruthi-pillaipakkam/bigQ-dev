@@ -14,7 +14,7 @@ operation:
     selectDistinct: false
     testsEnabled: false
     truncateBefore: true
-  database: ""
+  database: coalesce-a6346
   deployEnabled: true
   description: ""
   isMultisource: false
@@ -43,7 +43,7 @@ operation:
           stepCounter: 3dd97035-6538-4138-bbbc-d9ce207e1f76
         config: {}
         dataType: INT64
-        description: ""
+        description: Customer identifier sourced directly from the Customers table. Retains its original value throughout the data pipeline. Serves as the business key for customer records. Links customer transactions and interactions across different systems. Used in identifying individual customers for targeted marketing campaigns and personalized service offerings. Enables drill-down from aggregated customer metrics to individual customer details. No transformations applied.
         name: C_CUSTKEY
         nullable: true
         sourceColumnReferences:
@@ -249,7 +249,7 @@ operation:
         noLinkRefs: []
   name: WRK_DIM_customer
   overrideSQL: false
-  schema: ""
+  schema: shruthi_DB
   sqlType: Stage
   type: sql
   version: 1
