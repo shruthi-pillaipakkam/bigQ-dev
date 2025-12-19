@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "26"
+includeSelector: "{ location: WORK name: WRK_WRK_crime_2 } OR { location: WORK name: wrk_WRK_crime_2 } OR { location: SAMPLE name: WRK_crime } OR { location: SAMPLE name: WRK_crime_2 }"
+name: BQ Job
+type: Job

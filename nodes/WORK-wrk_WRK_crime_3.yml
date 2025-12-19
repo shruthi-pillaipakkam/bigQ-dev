@@ -1,0 +1,298 @@
+fileVersion: 1
+id: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+name: wrk_WRK_crime_3
+operation:
+  config:
+    groupByAll: false
+    insertStrategy: INSERT
+    orderby: false
+    orderbycolumn:
+      items:
+        - {}
+    postSQL: ""
+    preSQL: ""
+    selectDistinct: false
+    testsEnabled: false
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1071ad92-d653-4a78-8958-339d0f6d0a43
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: INT64
+        description: ""
+        name: unique_key
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6ca908b4-e912-4256-96d2-e6b2e6ac0411
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c6d4699f-884d-4b89-a570-a97b786089d2
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: STRING
+        description: ""
+        name: address
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a95ac805-76d0-45b3-952a-168264c170b7
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 334cba9b-ce52-4fdd-9440-e3f0d1dc35ff
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: FLOAT64
+        description: ""
+        name: census_tract
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 47389d67-2d29-4545-b19f-c9df19ef8de7
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e7b98209-f846-4d31-8398-bfdffd23271d
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: clearance_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0408af14-4cef-4ebf-8971-640014aee951
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 44c0003e-2636-446a-90b6-9011b2ec4896
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: STRING
+        description: ""
+        name: clearance_status
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4de0461e-8649-4cef-a142-93b9087c6506
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1d5d9505-f28a-42c4-a22e-01930314c7ca
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: INT64
+        description: ""
+        name: council_district_code
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 07c30aaf-e5cb-48aa-961c-28dd3240cc64
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1800bd73-9b69-4198-9d26-4a9c11297b76
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: STRING
+        description: ""
+        name: description
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9fe0ef01-04a2-434d-ac3d-553ca5a7d670
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ce1701c0-9ac8-43ca-8808-c430a908ea2f
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: STRING
+        description: ""
+        name: district
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a82aecda-c1e2-4bb8-a2ad-3865f3b292ad
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9c6970c5-8e0c-4a8e-9e54-fbef2601a542
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: FLOAT64
+        description: ""
+        name: latitude
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 846be4e5-670d-4282-bc2f-b7ad11db4314
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d3fe8ef0-1699-4303-b283-c75ef08269e0
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: FLOAT64
+        description: ""
+        name: longitude
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ce6d56fb-f5ae-428b-baba-1489d0673ee3
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a78b0bf7-dad2-4c70-bbc3-b77dc499d90b
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: STRING
+        description: ""
+        name: location
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 406a9173-02f0-42dd-98d7-9469749a4716
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 206a998a-72a6-47e5-b473-728e76d579e4
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: STRING
+        description: ""
+        name: location_description
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e603f7da-6027-468c-af1f-d6e528c316f0
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 62babc40-f04a-4149-bedd-a3998a830f01
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: STRING
+        description: ""
+        name: primary_type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: da836057-6203-4899-984f-542daf56e6fd
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f399f3af-a3f4-4872-b5de-6eb240b8e800
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: timestamp
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6b651099-4cbd-4352-b804-3b7a3f2eb1a9
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0c69b4f2-ac95-4300-a9e2-f5ca04352f36
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: INT64
+        description: ""
+        name: x_coordinate
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6cbf6bbc-81ea-4283-a35a-4a02983b4f84
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 16b8f4b0-3815-4061-becd-84b750cb7197
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: INT64
+        description: ""
+        name: y_coordinate
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5e208848-24f2-4d9c-a6dc-75b5b0ad173f
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 64561f66-8611-4edd-9a18-7d0b7c6540e5
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: INT64
+        description: ""
+        name: year
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 578ecd72-343c-45c6-b482-97ba595044a4
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 939c5cc8-971c-4796-844f-da31cc0ceafe
+          stepCounter: e9596f8e-bbd4-4eaf-a780-bf06560a92b5
+        config: {}
+        dataType: STRING
+        description: ""
+        name: zipcode
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4c23901f-aeb3-479f-ae4b-c051f424fdff
+                stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          wrk_WRK_crime_2: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: WORK
+            nodeName: wrk_WRK_crime_2
+        join:
+          joinCondition: FROM {{ ref('WORK', 'wrk_WRK_crime_2') }} `wrk_WRK_crime_2`
+        name: wrk_WRK_crime_3
+        noLinkRefs: []
+  name: wrk_WRK_crime_3
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node
