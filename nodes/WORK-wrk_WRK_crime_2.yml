@@ -261,20 +261,26 @@ operation:
               - columnCounter: 4618cc54-8930-4ce2-a38f-be88f3e1da20
                 stepCounter: 8803870e-0a9a-4b70-be2b-9081bd8d0c96
             transform: ""
-      - appliedColumnTests: {}
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
         columnReference:
-          columnCounter: 4c23901f-aeb3-479f-ae4b-c051f424fdff
+          columnCounter: 817fb372-11a1-4c3e-a65c-bf037da2badc
           stepCounter: 3b38e96e-4aa9-4ed6-8293-cabfbae47f38
         config: {}
         dataType: STRING
+        defaultValue: ""
         description: ""
-        name: zipcode
+        keyColumnType: None
+        name: test
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 0d44bc1f-72d3-41d3-9bfb-d23f5c7eab26
-                stepCounter: 8803870e-0a9a-4b70-be2b-9081bd8d0c96
+              - columnCounter: "0"
+                stepCounter: "0"
             transform: ""
+        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
