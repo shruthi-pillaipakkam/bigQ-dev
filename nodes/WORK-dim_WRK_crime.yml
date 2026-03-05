@@ -47,6 +47,7 @@ operation:
         config: {}
         dataType: INT64
         description: ""
+        isBusinessKey: true
         name: unique_key
         nullable: true
         sourceColumnReferences:

@@ -47,6 +47,7 @@ operation:
         config: {}
         dataType: STRING
         description: ""
+        isBusinessKey: true
         name: ID
         nullable: true
         sourceColumnReferences:
