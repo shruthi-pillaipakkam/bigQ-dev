@@ -1,0 +1,361 @@
+fileVersion: 1
+id: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+name: dim_jira_export
+operation:
+  config:
+    groupByAll: false
+    insertStrategy: UNION DISTINCT
+    orderby: false
+    orderbycolumn:
+      items:
+        - {}
+    postSQL: ""
+    preSQL: ""
+    selectDistinct: false
+    testsEnabled: false
+    truncateBefore: false
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: WORK
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c3dd40db-8e94-4a43-b064-3c8a1159756b
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        isSurrogateKey: true
+        name: dim_jira_export_KEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8feb2e44-c428-493b-b0fa-9e1805d74307
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        description: ""
+        name: ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d27f222c-9e1f-4971-a6df-b991a7174b02
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 55eae8a0-14e1-4715-9094-ee5774dee8e1
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Parent
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5fdb6cb2-45a2-483b-ba01-c2948244768a
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fb8e54a5-69d1-4ceb-83e0-46e446409515
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6e7265fb-d1b1-4cb7-acc7-9627dc4b1f6e
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2461fab5-f7f9-4509-ae7b-8f4ff551a5f3
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Team
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 71793b66-c3b0-4f4d-8134-fdd3ad54fe1b
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1e6d9947-f490-4b2a-8aa1-96f7893d5f71
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Summary
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f6dd4940-1e7e-4bff-9d28-ab9c60c3e26c
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f4bca33f-77c6-4ae1-9b6b-7ad935503396
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Status
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 674ad1ca-c446-4ef7-a5e4-6632ea75860f
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7da60721-61c1-487a-bcb0-4bde56a236bd
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        description: ""
+        name: StatusCategory
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b6388852-9f6a-4418-ae2c-e95384016a14
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cf51ab9e-7000-4258-92e7-1ab2a4af4720
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Priority
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 104e1fe7-b442-411d-af63-f6fe4de5b966
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: def64d01-068c-42d3-bf2a-4237d787c00a
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Assignee
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 39d28981-ab31-4edd-98f6-e2e20e79ab69
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a7a006e1-9ff3-4266-ba6c-14f7e9f44214
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        description: ""
+        name: Reporter
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 411f039a-7a14-4419-bb96-7ceabb88e9c5
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 25803826-6267-4b60-a0d6-3fb0dbd4b2d9
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: Created
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 845ce626-1b32-4996-a1b6-64ac7eced50c
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3cc9b79b-f0f6-4509-bf09-f5932f1e9984
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: Updated
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2a402c2f-6344-4fa8-b0b6-7a3c3eeb36a2
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a1ba0d37-b792-4bf6-85a5-b993556ebbc1
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        description: ""
+        name: string_field_12
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: aa49f2bb-2f31-4c9a-878a-b677a2d9bde7
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f4058135-75d9-4bf4-8e99-bba1eb244007
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        description: ""
+        name: ResolutionDate
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4d310f35-1827-4f6e-9ff4-21dbe0ee9662
+                stepCounter: 9e54d33f-2629-41b5-b931-88e6e37defb1
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 986e91f6-1c1f-4602-845a-357b3e9bdbba
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: ""
+        isSystemVersion: true
+        name: SYSTEM_VERSION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c66b78a0-2351-49e9-b370-7161c0afa56f
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        isSystemCurrentFlag: true
+        name: SYSTEM_CURRENT_FLAG
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4baa19e7-ce36-4ba7-bb79-778cf406071b
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemStartDate: true
+        name: SYSTEM_START_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f54dc4a6-68eb-41eb-939b-744b1a3a0c16
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemEndDate: true
+        name: SYSTEM_END_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST('2999-12-31 00:00:00' AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7c176046-ff04-4261-a82b-48c9e631a215
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemCreateDate: true
+        name: SYSTEM_CREATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 064a2b96-953f-4b1d-a093-38e51c0f9e1f
+          stepCounter: 2fb8ba14-db81-4b4f-9143-dd7c27f7bd11
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemUpdateDate: true
+        name: SYSTEM_UPDATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          jira_export: 9e54d33f-2629-41b5-b931-88e6e37defb1
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: SAMPLE
+            nodeName: jira_export
+        join:
+          joinCondition: FROM {{ ref('SAMPLE', 'jira_export') }} `jira_export`
+        name: dim_jira_export
+        noLinkRefs: []
+  name: dim_jira_export
+  overrideSQL: false
+  schema: ""
+  sqlType: Dimension
+  type: sql
+  version: 1
+type: Node

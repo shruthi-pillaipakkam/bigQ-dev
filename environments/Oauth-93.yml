@@ -1,11 +1,11 @@
 fileVersion: 1
-id: "82"
+id: "93"
 mappingDefinitions:
   SAMPLE:
     database: coalesce-a6346
     schema: coalesce_dev
   WORK:
     database: coalesce-a6346
-    schema: TestBryanDeploy
-name: BQ- Bryan
+    schema: shruthi_DB
+name: Oauth
 type: Environment
