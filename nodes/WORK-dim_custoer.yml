@@ -1,6 +1,6 @@
 fileVersion: 1
 id: 3dd97035-6538-4138-bbbc-d9ce207e1f76
-name: WRK_DIM_customer
+name: dim_custoer
 operation:
   config:
     groupByAll: false
@@ -234,7 +234,10 @@ operation:
                 stepCounter: 4aed5aa8-e7a4-471e-bddb-dc513ff4712c
             transform: ""
     cteString: ""
+    description: ""
+    destinationName: ""
     enabledColumnTestIDs: []
+    materializationOption: ""
     sourceMapping:
       - aliases:
           DIM_customer: 4aed5aa8-e7a4-471e-bddb-dc513ff4712c
@@ -247,7 +250,7 @@ operation:
           joinCondition: FROM {{ ref('SAMPLE', 'DIM_customer') }} `DIM_customer`
         name: WRK_DIM_customer
         noLinkRefs: []
-  name: WRK_DIM_customer
+  name: dim_custoer
   overrideSQL: false
   schema: shruthi_DB
   sqlType: Stage
