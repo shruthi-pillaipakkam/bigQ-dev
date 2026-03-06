@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "31"
+includeSelector: "{ location: \"SAMPLE\" name: \"jira_export\" }"
+name: include this in coa plan
+type: Job
