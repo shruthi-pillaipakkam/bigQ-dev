@@ -1,0 +1,6 @@
+excludeSelector: "{ location: \"SAMPLE\" name: \"DIM_customer\" }"
+fileVersion: 1
+id: "28"
+includeSelector: "{ location: \"WORK\" name: \"dim_DIM_customer\" } OR { location: \"SAMPLE\" name: \"DIM_customer\" } OR { location: \"SAMPLE\" name: \"WRK_crime_2\" }"
+name: Job
+type: Job
